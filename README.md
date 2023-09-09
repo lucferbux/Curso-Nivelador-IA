@@ -18,7 +18,7 @@ En esta sesión vamos a abordar los conceptos clave para empezar a trabajar con 
 
 Github es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones Git. El código se almacena de forma pública, aunque también se puede hacer de forma privada, creando una cuenta gratuita. Github es una plataforma muy utilizada por los desarrolladores de software, ya que permite trabajar de forma colaborativa en un mismo proyecto, además de poder compartir el código con el resto de la comunidad.
 
-Lo primero de todo será registraros en Github, podéis hacerlo en el siguiente enlace: [Github](https://github.com/signup). El registro es gratuito, podéis seguir las [instrucciones de la documentación](https://docs.github.com/es/get-started/signing-up-for-github/signing-up-for-a-new-github-account). Una vez registrados, podéis acceder al repositorio del curso siguiendo este enlace [Curso Nivelador IA](https://github.com/lucferbux/Curso-Nivelador-IA) y añadiendo el repositorio a vuestros favoritos haciendo click en el botón **"Star"**.
+Lo primero de todo será registraros en Github, podéis hacerlo en el [siguiente enlace](https://github.com/signup). El registro es gratuito, podéis seguir las [instrucciones de la documentación](https://docs.github.com/es/get-started/signing-up-for-github/signing-up-for-a-new-github-account). Una vez registrados, podéis acceder al repositorio del curso siguiendo este enlace [Curso Nivelador IA](https://github.com/lucferbux/Curso-Nivelador-IA) y añadiendo el repositorio a vuestros favoritos haciendo click en el botón **"Star"**.
 
 No os preocupéis mucho por el funcionamiento de Git y Github, en nuestro caso lo vamos a utilizar para descargar el código de los ejemplos que vamos a ver en el curso. Para ello, debéis descargar el software de Git en el siguiente enlace: [Git](https://git-scm.com/). Una vez instalado, podéis descargar el código de los ejemplos con el siguiente comando:
 
@@ -36,7 +36,7 @@ Si queréis profundizar en el uso de Git y Github, os dejo algunos recursos que 
 
 ## VSCode
 
-Una vez descargado el código vamos a utilizar un editor de código para poder ver los ejemplos. En este caso, vamos a utilizar [VSCode](https://code.visualstudio.com/), un editor de código gratuito y de código abierto desarrollado por Microsoft. Podéis descargarlo en el siguiente enlace: [Descarga](https://code.visualstudio.com/Download).
+Una vez descargado el proyecto vamos a utilizar un editor de código para poder ver los ejemplos. En este caso, vamos a utilizar [VSCode](https://code.visualstudio.com/), un editor de código gratuito y de código abierto desarrollado por Microsoft. Podéis descargarlo en [su página de descargas](https://code.visualstudio.com/Download).
 
 La parte más relevante para nosotros es la integración con Python, para ello debemos instalar la extensión de Python en VSCode. Para ello, debemos abrir VSCode y pulsar el botón de extensiones en la barra lateral izquierda. Una vez abierta la ventana de extensiones, debemos buscar la extensión de Python y pulsar el botón de instalar.
 
