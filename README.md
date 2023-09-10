@@ -13,6 +13,7 @@ En esta sesión vamos a abordar los conceptos clave para empezar a trabajar con 
 - [Github](https://github.com/)
 - [Git](https://git-scm.com/)
 - [ChatGPT](https://chat.openai.com/)
+- [Hugging Face](https://huggingface.co/)
 
 ## Github
 
@@ -137,3 +138,15 @@ python python-local/mnist.py
 ```
 
 Con esto podremos ejecutar nuestro proyecto local en el entorno virtual `mnist`.
+
+### Hugging Face
+
+Hugging Face es una plataforma de código abierto que nos permite compartir modelos de Inteligencia Artificial. Podemos encontrar modelos de lenguaje, modelos de traducción, modelos de clasificación, etc. Además, podemos utilizar estos modelos en nuestros proyectos de forma sencilla.
+
+Para utilizar Hugging Face, debemos registrarnos en la plataforma. Podéis registraros en el [siguiente enlace](https://huggingface.co/join). Una vez registrados, podemos acceder a la plataforma en el [siguiente enlace](https://huggingface.co/).
+
+Una vez logueados, podemos acceder a la sección de modelos en el [siguiente enlace](https://huggingface.co/models). En esta sección podemos encontrar modelos de lenguaje, modelos de traducción, modelos de clasificación, etc. Podemos utilizar estos modelos en nuestros proyectos de forma sencilla.
+
+Podremos probar modelos de lenguaje en la sección de [text generation](https://huggingface.co/tasks/text-generation). Gracias a la API activa de [inference endpoints](https://huggingface.co/docs/inference-endpoints/index) podremos probar algunos modelos de lenguaje en la nube.
+
+Además de esto tendremos acceso a [datasets](https://huggingface.co/datasets) con datos de entrenamiento ya clasificados, [spaces](https://huggingface.co/spaces) donde descubrir aplicaciones de ML, [documentación](https://huggingface.co/docs) con información relevante acerca de distintos aspectos de Machine Learning y otras soluciones para hacer **hosting** de modelos, entrenamiento automático y más.
