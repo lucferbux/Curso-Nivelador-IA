@@ -12,10 +12,12 @@ En esta sesión vamos a abordar los conceptos clave para empezar a trabajar con 
 - [Google Colab](https://colab.research.google.com/)
 - [Github](https://github.com/)
 - [Git](https://git-scm.com/)
-- [ChatGPT](https://chat.openai.com/)
-- [Hugging Face](https://huggingface.co/)
+- `extra` [ChatGPT](https://chat.openai.com/)
+- `extra` [Hugging Face](https://huggingface.co/)
 
-## Github
+## Conceptos
+
+### Github
 
 Github es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizando el sistema de control de versiones Git. El código se almacena de forma pública, aunque también se puede hacer de forma privada, creando una cuenta gratuita. Github es una plataforma muy utilizada por los desarrolladores de software, ya que permite trabajar de forma colaborativa en un mismo proyecto, además de poder compartir el código con el resto de la comunidad.
 
@@ -35,7 +37,7 @@ Si queréis profundizar en el uso de Git y Github, os dejo algunos recursos que 
 - [Documentación de Github](https://docs.github.com/es)
 - [Tutorial de Git](https://git-scm.com/docs/gittutorial)
 
-## VSCode
+### VSCode
 
 Una vez descargado el proyecto vamos a utilizar un editor de código para poder ver los ejemplos. En este caso, vamos a utilizar [VSCode](https://code.visualstudio.com/), un editor de código gratuito y de código abierto desarrollado por Microsoft. Podéis descargarlo en [su página de descargas](https://code.visualstudio.com/Download).
 
@@ -53,21 +55,7 @@ Hay muchas más extensiones y opciones que podemos utilizar en VSCode, pero no e
 - [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
 - [Tutorial Python en VSCode](https://code.visualstudio.com/docs/python/python-tutorial)
 
-## ChatGPT
-
-ChatGPT es un modelo de lenguaje de Inteligencia Artificial desarrollado por OpenAI. El modelo fue entrenado con 8 millones de conversaciones públicas a lo largo de internet. Es un modelo de lenguaje de gran tamaño, con 1.7 billones de parámetros, lo que le permite generar respuestas coherentes y con sentido en una gran cantidad de escenarios.
-
-Vamos a probar algún ejemplo en el siguiente enlace: [ChatGPT](https://chat.openai.com/). Para ello, debemos introducir una frase en el cuadro de texto y pulsar el botón "Chat". El modelo generará una respuesta coherente con la frase introducida. Podemos probar con diferentes frases y ver cómo el modelo es capaz de generar respuestas coherentes.
-
-Una vez que hemos probado el modelo, vamos a ver cómo generar "prompts" útiles para el desarrollo en Python. Para ello, escribid el siguiente código en el cuadro de texto:
-
-```text
-Crea un modelo Sequential en Keras que entrene el dataset de MNIST Handwritten Digits
-```
-
-No os preocupéis mucho por el código, lo importante es que veáis cómo el modelo es capaz de generar código coherente, vamos a explicar este mismo ejemplo un poco más adelante.
-
-## Google Colab
+### Google Colab
 
 Google Colab es un entorno de desarrollo gratuito que nos permite ejecutar código Python en la nube. Es una herramienta muy útil para desarrollar aplicaciones de Inteligencia Artificial, ya que nos permite ejecutar código en la nube sin necesidad de instalar nada en nuestro ordenador. Además, nos permite utilizar GPUs y TPUs para acelerar el entrenamiento de nuestros modelos.
 
@@ -75,7 +63,7 @@ Para utilizar Google Colab, debemos tener una cuenta de Google. Podéis crear un
 
 En la clase de hoy, haremos una introducción rápida a Python y veremos cómo utilizar Google Colab para ejecutar código Python en la nube. Para ello, vamos a utilizar [el siguiente ejemplo](https://colab.research.google.com/drive/1SqDj22rYo_2_E1DcxQMhvLNNo8UMaNk7?usp=sharing).
 
-## Anaconda
+### Anaconda
 
 Anaconda es una distribución de Python que incluye un gestor de paquetes, un entorno virtual y un gestor de dependencias. Es una herramienta muy útil para desarrollar aplicaciones de Inteligencia Artificial, ya que nos permite instalar y gestionar las dependencias de nuestros proyectos de forma sencilla.
 
@@ -91,7 +79,7 @@ Antes de esto, hay que explicar varios conceptos relacionados con Python:
 - **Dependencias**: son paquetes de código que podemos instalar en nuestros proyectos. Por ejemplo, podemos instalar la dependencia `tensorflow` para utilizar la librería de TensorFlow en nuestro proyecto.
 - **Gestor** de dependencias: es una herramienta que nos permite instalar y gestionar las dependencias de nuestros proyectos. En nuestro caso, vamos a utilizar `conda` como gestor de dependencias.
 
-### Anaconda Navigator
+#### Anaconda Navigator
 
 Vamos a crear un **entorno virtual** y a instalar las dependencias de nuestro proyecto utilizando la interfaz gráfica de Anaconda. Para ello, debemos abrir Anaconda Navigator y pulsar el botón "Create" en la sección de Environments. Una vez abierto el cuadro de diálogo, debemos introducir el nombre del entorno virtual, por ejemplo `mnist`, y pulsar el botón "Create".
 
@@ -107,7 +95,7 @@ Ahora vamos a lanzar un cuaderno Jupyter Notebook en nuestro entorno, para ello 
 
 Después de esto, podemos importar el archivo `curso_nivealdor.ipynb` que se encuentra en la carpeta `notebooks` de este repositorio.
 
-### Conda CLI
+#### Conda CLI
 
 Vamos a repetir la creación de un **entorno virtual** y la instalación de las dependencias de nuestro proyecto utilizando la interfaz de línea de comandos de Anaconda. Para ello, debemos abrir la terminal de nuestro equipo em macos o Anaconda Prompt en Windows.
 
@@ -138,6 +126,22 @@ python python-local/mnist.py
 ```
 
 Con esto podremos ejecutar nuestro proyecto local en el entorno virtual `mnist`.
+
+## Bonus
+
+### ChatGPT
+
+ChatGPT es un modelo de lenguaje de Inteligencia Artificial desarrollado por OpenAI. El modelo fue entrenado con 8 millones de conversaciones públicas a lo largo de internet. Es un modelo de lenguaje de gran tamaño, con 1.7 billones de parámetros, lo que le permite generar respuestas coherentes y con sentido en una gran cantidad de escenarios.
+
+Vamos a probar algún ejemplo en el siguiente enlace: [ChatGPT](https://chat.openai.com/). Para ello, debemos introducir una frase en el cuadro de texto y pulsar el botón "Chat". El modelo generará una respuesta coherente con la frase introducida. Podemos probar con diferentes frases y ver cómo el modelo es capaz de generar respuestas coherentes.
+
+Una vez que hemos probado el modelo, vamos a ver cómo generar "prompts" útiles para el desarrollo en Python. Para ello, escribid el siguiente código en el cuadro de texto:
+
+```text
+Crea un modelo Sequential en Keras que entrene el dataset de MNIST Handwritten Digits
+```
+
+No os preocupéis mucho por el código, lo importante es que veáis cómo el modelo es capaz de generar código coherente, vamos a explicar este mismo ejemplo un poco más adelante.
 
 ### Hugging Face
 
