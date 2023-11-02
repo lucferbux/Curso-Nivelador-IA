@@ -1,4 +1,4 @@
-# Curso Nivelador IA
+# Curso Nivelador IA Para Python
 
 > Repositorio para el curso nivelador de IA
 
