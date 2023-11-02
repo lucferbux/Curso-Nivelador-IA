@@ -26,7 +26,7 @@ Lo primero de todo será registraros en Github, podéis hacerlo en el [siguiente
 No os preocupéis mucho por el funcionamiento de Git y Github, en nuestro caso lo vamos a utilizar para descargar el código de los ejemplos que vamos a ver en el curso. Para ello, debéis descargar el software de Git en el siguiente enlace: [Git](https://git-scm.com/). Una vez instalado, podéis descargar el código de los ejemplos con el siguiente comando:
 
 ```bash
-git clone git@github.com:lucferbux/Curso-Nivelador-IA.git
+git clone https://github.com/lucferbux/Curso-Nivelador-IA.git
 ```
 
 Si por un causal no tenéis instalado Git, podéis descargar el código directamente en el [repositorio](https://github.com/lucferbux/Curso-Nivelador-IA), pinchando el botón verde "Code" y seleccionando la opción "Download ZIP".
